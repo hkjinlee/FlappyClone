@@ -67,6 +67,8 @@ public class Tube {
     public void reposition(float x) {
         topTubePosition.x = x;
         bottomTubePosition.x = x;
+        topTubeBound.x = x;
+        bottomTubeBound.x = x;
     }
 
     public boolean collides(Rectangle object) {
